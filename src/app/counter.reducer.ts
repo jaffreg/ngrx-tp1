@@ -9,6 +9,6 @@ export const counterReducer = createReducer(
     console.log('appel de increment à ' + dateMaj);
     return state + 1;
   }),
-  on(decrement, (state) => state - 1),
+  //on(decrement, (state) => state - 1),
   on(reset, (state) => 0)
 );
